@@ -1,0 +1,47 @@
+[28-Oct-2026 08:07:58 America/Montevideo] Error de conexión: SQLSTATE[HY000] [2002] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+[28-Oct-2026 08:08:10 America/Montevideo] Error en el login: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sigsm_prueba.intento_login' doesn't exist
+[28-Oct-2026 08:08:19 America/Montevideo] Error en el login: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sigsm_prueba.intento_login' doesn't exist
+[28-Oct-2026 08:11:12 America/Montevideo] Error en el login: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sigsm_prueba.intento_login' doesn't exist
+[28-Oct-2026 08:13:02 America/Montevideo] Error de conexión: SQLSTATE[HY000] [2002] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+[28-Oct-2026 08:26:59 America/Montevideo] PHP Warning:  require_once(C:\xampp\htdocs\sigsm\negocio/../datos/Bitacora.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\sigsm\negocio\auditoria.php on line 7
+[28-Oct-2026 08:26:59 America/Montevideo] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\xampp\htdocs\sigsm\negocio/../datos/Bitacora.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\sigsm\negocio\auditoria.php:7
+Stack trace:
+#0 C:\xampp\htdocs\sigsm\negocio\procesarLogin.php(11): require_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\sigsm\negocio\auditoria.php on line 7
+[28-Oct-2026 08:27:15 America/Montevideo] PHP Warning:  require_once(C:\xampp\htdocs\sigsm\negocio/../datos/Bitacora.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\sigsm\negocio\auditoria.php on line 7
+[28-Oct-2026 08:27:15 America/Montevideo] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\xampp\htdocs\sigsm\negocio/../datos/Bitacora.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\sigsm\negocio\auditoria.php:7
+Stack trace:
+#0 C:\xampp\htdocs\sigsm\negocio\procesarLogin.php(11): require_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\sigsm\negocio\auditoria.php on line 7
+[28-Oct-2026 08:29:21 America/Montevideo] PHP Warning:  require_once(C:\xampp\htdocs\sigsm\negocio/../datos/Bitacora.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\sigsm\negocio\auditoria.php on line 7
+[28-Oct-2026 08:29:21 America/Montevideo] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\xampp\htdocs\sigsm\negocio/../datos/Bitacora.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\sigsm\negocio\auditoria.php:7
+Stack trace:
+#0 C:\xampp\htdocs\sigsm\negocio\procesarLogin.php(11): require_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\sigsm\negocio\auditoria.php on line 7
+[28-Oct-2026 08:31:21 America/Montevideo] PHP Warning:  require_once(C:\xampp\htdocs\sigsm\negocio/../datos/Bitacora.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\sigsm\negocio\auditoria.php on line 7
+[28-Oct-2026 08:31:21 America/Montevideo] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\xampp\htdocs\sigsm\negocio/../datos/Bitacora.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\sigsm\negocio\auditoria.php:7
+Stack trace:
+#0 C:\xampp\htdocs\sigsm\negocio\procesarLogin.php(11): require_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\sigsm\negocio\auditoria.php on line 7
+[28-Oct-2026 08:34:46 America/Montevideo] PHP Warning:  require_once(C:\xampp\htdocs\sigsm\negocio/../datos/Bitacora.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\sigsm\negocio\auditoria.php on line 7
+[28-Oct-2026 08:34:46 America/Montevideo] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\xampp\htdocs\sigsm\negocio/../datos/Bitacora.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\sigsm\negocio\auditoria.php:7
+Stack trace:
+#0 C:\xampp\htdocs\sigsm\negocio\procesarLogin.php(11): require_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\sigsm\negocio\auditoria.php on line 7
+[28-Oct-2026 08:36:00 America/Montevideo] PHP Warning:  require_once(C:\xampp\htdocs\sigsm\negocio/../datos/Bitacora.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\sigsm\negocio\auditoria.php on line 7
+[28-Oct-2026 08:36:00 America/Montevideo] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\xampp\htdocs\sigsm\negocio/../datos/Bitacora.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\sigsm\negocio\auditoria.php:7
+Stack trace:
+#0 C:\xampp\htdocs\sigsm\negocio\procesarLogin.php(11): require_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\sigsm\negocio\auditoria.php on line 7
+[28-Oct-2026 08:45:12 America/Montevideo] Error al listar documentos: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+[28-Oct-2026 08:45:21 America/Montevideo] Error de conexión: SQLSTATE[HY000] [2002] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+[28-Oct-2026 09:04:35 America/Montevideo] Error de conexión: SQLSTATE[HY000] [2002] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+[28-Oct-2026 09:15:20 America/Montevideo] PHP Fatal error:  Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\sigsm\datos\conexion.php on line 31
+[28-Oct-2026 09:15:20 America/Montevideo] PHP Fatal error:  Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\sigsm\negocio\sesion.php on line 140
+[28-Oct-2026 09:32:07 America/Montevideo] PHP Fatal error:  Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\sigsm\datos\conexion.php on line 31

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S.I.G.S.M. - Portal Pacientes</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success shadow-sm">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../login.php">S.I.G.S.M. - Pacientes</a>
+            <div class="collapse navbar-collapse d-flex">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="administrativos.html">Área Personal</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="container mt-4" style="max-width: 600px;">
+        <div class="text-center mb-4">
+            <h4>Mis Documentos Médicos</h4>
+            <p class="text-muted">Acceso digital generado por Hospital de Clínicas</p>
+        </div>
+
+
+        <div class="list-group shadow-sm mb-4">
+            <a href="#" class="list-group-item list-group-item-action">
+                <div class="d-flex w-100 justify-content-between">
+                    <h6 class="mb-1">Preparación para estudios </h6>
+                    <small class="text-muted">PDF</small>
+                </div>
+                <small>Descargar indicaciones previas al estudio.</small>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action">
+                <div class="d-flex w-100 justify-content-between">
+                    <h6 class="mb-1">Indicaciones para pacientes </h6>
+                    <small class="text-muted">PDF</small>
+                </div>
+                <small>Guía de cuidados.</small>
+            </a>
+        </div>
+
+
+        <div class="card shadow-sm border-info mb-5">
+            <div class="card-header bg-info text-white fw-bold">
+                Ayúdanos a mejorar
+            </div>
+            <div class="card-body">
+                <h6 class="card-title mb-1">Encuesta estándar de satisfacción</h6>
+                <p class="card-text text-muted small mb-4">Tu opinión es anónima y muy importante para nosotros.</p>
+               
+                <form action="#" method="POST">
+                   
+                    <div class="mb-4">
+                        <label class="form-label small fw-bold text-secondary">1. ¿Cómo calificarías tu experiencia general?</label>
+                        <div class="d-flex justify-content-between px-2">
+                            <div class="form-check form-check-inline text-center m-0">
+                                <input class="form-check-input d-block mx-auto mb-1" type="radio" name="experiencia" id="exp-1" value="1" required>
+                                <label class="form-check-label small" for="exp-1">1<br></label>
+                            </div>
+                            <div class="form-check form-check-inline text-center m-0">
+                                <input class="form-check-input d-block mx-auto mb-1" type="radio" name="experiencia" id="exp-2" value="2">
+                                <label class="form-check-label small" for="exp-2">2<br></label>
+                            </div>
+                            <div class="form-check form-check-inline text-center m-0">
+                                <input class="form-check-input d-block mx-auto mb-1" type="radio" name="experiencia" id="exp-3" value="3">
+                                <label class="form-check-label small" for="exp-3">3<br></label>
+                            </div>
+                            <div class="form-check form-check-inline text-center m-0">
+                                <input class="form-check-input d-block mx-auto mb-1" type="radio" name="experiencia" id="exp-4" value="4">
+                                <label class="form-check-label small" for="exp-4">4<br></label>
+                            </div>
+                            <div class="form-check form-check-inline text-center m-0">
+                                <input class="form-check-input d-block mx-auto mb-1" type="radio" name="experiencia" id="exp-5" value="5">
+                                <label class="form-check-label small" for="exp-5">5<br></label>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="mb-3">
+                        <label class="form-label small fw-bold text-secondary" for="tiempo_espera">2. ¿Cómo calificarías el tiempo de espera?</label>
+                        <select class="form-select form-select-sm" id="tiempo_espera" name="tiempo_espera" required>
+                            <option value="" selected disabled>Selecciona una opción...</option>
+                            <option value="muy_rapido">Muy rápido y ágil</option>
+                            <option value="adecuado">Adecuado / Normal</option>
+                            <option value="lento">Más lento de lo esperado</option>
+                            <option value="muy_lento">Inaceptable</option>
+                        </select>
+                    </div>
+
+
+                    <div class="mb-3">
+                        <label class="form-label small fw-bold text-secondary" for="comentarios">3. ¿Tienes alguna sugerencia o comentario adicional?</label>
+                        <textarea class="form-control form-control-sm" id="comentarios" name="comentarios" rows="3" placeholder="Escribe tu opinión aquí..."></textarea>
+                    </div>
+
+
+                    <button type="submit" class="btn btn-info text-white w-100 mt-2">Enviar Encuesta</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>
